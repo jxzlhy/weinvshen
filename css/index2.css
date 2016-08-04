@@ -1,0 +1,294 @@
+body,html{
+			font-family: "微软雅黑";
+			background-color:#dff1e5;
+			height: 100%;
+			overflow:auto;
+		}
+		.header{
+			width: 100%;
+			background-color: #3ba285;
+			text-align: center;
+			line-height: 50px;
+			color: white;
+			font-size: 1.2rem;
+		}
+
+		.jj{
+			display: block;
+			height: 3px;
+			background:url("../images/jj.png") repeat-x;
+			background-size: 10px 4px;  
+		}
+		.main{
+			text-align: center;
+		}
+		.tips{
+			color: #e60012;
+			line-height: 45px;
+			font-size: 1.1rem;
+		}
+		form input{
+			border: 0;
+			padding: 10px;
+			border-radius: 7px;
+			font-size: 0.8rem;
+			width: 90%;
+			margin: 9px auto 0;
+		}
+		textarea{
+			width: 90%;
+			margin: 0 auto;
+			padding: 10px;
+			margin-top: 11px;
+			font-size: 0.9rem;
+			outline:none;
+			resize:none;
+			border: 0;
+			border-radius: 7px 7px 0 0;
+		}
+		#upload{
+			display: block;
+			width: 90%;
+			height: 30px;
+			background-color: white;
+			text-align: left;
+			line-height: 30px;
+			margin: 0 auto;
+			padding-left: 10px;
+			padding-right: 10px;
+			font-size: 0.9rem;
+			color: #a0a0a0;
+			}
+			#upload i{
+				display: inline-block;
+				width: 20px;
+				height: 20px;
+				vertical-align: middle;
+				margin-bottom: 3px;
+				margin-right: 8px;
+			}
+    		#choose{
+    			display: none;
+    		}
+    .img-list{margin: 10px 5px;}
+			canvas{width: 100%;border: 1px solid #000000;}
+			.touch{background-color: #ddd;}
+    .img-list{margin: 10px 5px;}
+    .img-list li{position: relative;display: inline-block;width: 100px;height: 100px;margin: 5px 5px 20px 5px;border: 1px solid rgb(100,149,198);background: #fff no-repeat center;background-size: cover;}
+    .progress{position: absolute;width: 100%;height: 20px;line-height: 20px;bottom: 0;left: 0;background-color:rgba(100,149,198,.5);}
+    .progress span{display: block;width: 0;height: 100%;background-color:rgb(100,149,198);text-align: center;color: #FFF;font-size: 13px;}
+    .size{position: absolute;width: 100%;height: 15px;line-height: 15px;bottom: -18px;text-align: center;font-size: 13px;color: #666;}
+    .pic-list a{display: block;margin: 10px 0;}
+    .pic-list a img{vertical-align: middle;max-width: 30px;max-height: 30px;margin: -4px 0 0 10px;}
+    .tip{
+    	color: #a0a0a0;
+    	text-align: left;
+    	font-size: 0.9rem;
+    }
+    .tip em{
+    	display: block;
+    	width: 93%;
+    	margin: 0 auto;
+    }
+    .btn2 {
+    color: white;
+    font-size: 1rem;
+    display: block;
+    width: 95%;
+    background: url("../images/btn2.png");
+    background-size: 100% 42px;
+    background-repeat: no-repeat;
+    margin: 30px auto;
+    height: 42px;
+    line-height: 38px;
+}
+	.copyright{
+    	color: #a0a0a0;
+    	font-size: 0.95rem;
+    	margin-bottom: 20%;
+	}
+	.footer {
+    height: 48px;
+    background-color: #3ba285;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+	.footer_list{
+		height: 43px;
+	}
+	.footer_list li{
+		width: 20%;
+		display: inline-block;
+		height: 43px;
+	}
+	.list-box ul {
+  width: 100%;
+  font-size: 0.95rem;
+}
+.list-box ul li {
+  float: left;
+  width: 20%;
+  height: 43px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.list-box ul li a {
+  display: block;
+  margin-top: 5px;
+  color: white;
+  text-align: center;
+} 
+.list-box ul li span {
+    text-align: center;
+    display: inline-block;
+    height: 19px;
+    width: 19px;
+    background: url(../images/footer.png) no-repeat;
+    background-size: 97px;
+    background-position: 0 0;
+}
+.list-box ul li.list-1 span {
+}
+.list-box ul li.list-2 span {
+  background-position: -19px center;
+}
+.list-box ul li.list-3 span {
+  background-position: -39px center;
+}
+.list-box ul li.list-4 span {
+  background-position: -58px center;
+}
+.list-box ul li.list-5 span {
+  background-position: -78px center;
+}
+.list-box ul li.list-6 span {
+  background-position: center -230px;
+}
+/*搜索框*/
+.search{
+			display: none;
+			position: fixed;
+			width: 100%;
+			height: 100%;
+			z-index: 10000;
+		}
+		.smain{
+			position: relative;
+			width: 100%;
+			height: 20%;
+			background-color: #40b394;
+			opacity: 1;
+		}
+		.smain p{
+			display: block;
+			width: 90%;
+			height: 30px;
+			position: absolute;
+    		left: 0;
+    		top: 0;
+    		right:0;
+    		bottom:0;
+    		margin:auto;
+    		text-align: center;
+			
+		}
+		.smain input{
+    		float: left;
+			color: #c3c3c3;
+			height: 30px;
+			padding-left: 5px;
+			border: 0;
+			font-size: 0.8rem;
+			border-radius: 5px;
+			width: 65%;
+		}
+		.smain a{
+    		float: right;
+			color: white;
+			display: inline-block;
+			background-color: #f7b428;
+			width: 31%;
+			border-radius: 5px;
+			height: 30px;
+			line-height: 27px;
+		}
+		.smain a:before{
+			content:"";
+			vertical-align: middle;
+			margin-right: 10%;
+			display: inline-block;
+  			height: 19px;
+  			width: 19px;
+  			background: url(../images/footer.png) no-repeat;
+  			background-size: 97px ;
+  			background-position: -39px center;
+		}
+		.smain1{
+			background-color: #434844;
+			height: 80%;
+			opacity: 0.7;
+		}
+		/*排行榜*/
+		.best{
+			display: none;
+			position: fixed;
+			width: 100%;
+			height: 100%;
+			background-color: black;
+			z-index: 100;
+			opacity: 0.7;
+		}
+		.best_main{
+			display: none;
+			position: fixed;
+			width: 90%;
+			background-color: white;
+			height: 94%;
+			margin:auto;
+			top: 0; left: 0; bottom: 0; right: 0;  
+			border-radius: 10px;
+			text-align: center;
+			z-index: 100;
+			overflow: hidden;
+		}
+		.close a{
+    		position: absolute;
+    		display: block;
+    		width:30px;
+    		height:30px;
+    		top: 0;
+    		right: 0;
+    		background: url(../images/close.png) no-repeat;
+    		background-size: 100% 100%;
+    		z-index: 100;
+		}
+		.btitle{
+			font-size: 1.1rem;
+			margin-top: 16px;
+		}
+		.best_main ul{
+			overflow: hidden;
+
+			width: 94%;
+			overflow-y: auto;
+			height: 100%;
+			margin: 10px auto;
+			font-size: 1rem;
+			line-height: 40px;
+			z-index: 100;
+		}
+		.best_main span{
+			display: inline-block;
+			width: 30%;
+		}
+		.first{
+			width: 94%;
+			background-color: #fccc5f;
+			height: 30px;
+			line-height: 30px;
+			margin: 0 auto;
+			margin-top: 10px;
+		}
